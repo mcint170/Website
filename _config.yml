@@ -14,17 +14,15 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 lang: en-US
-title: My Awesome Site
-email:
-description:
+title: Brandon McIntyre
+email: mcint170@msu.edu
+description: "Data Scienc Major with minor in Cogntive Science, here to change the world one datum at a time."
 baseurl: # the optional subpath of your site, e.g. "/blog"
 url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 author:
-  name:
-  twitter:
-  picture:
-twitter_username:
-github_username:
+  name: Brandon McIntyre
+  picture: /assets/images/brandon_picture.jpg
+github_username: mcint170
 logo: # path of site logo, e.g. "/assets/images/logo.png"
 search: # true, false (default)
 search_full_content: false # true, false (default)
@@ -43,8 +41,7 @@ plugins: # previsously gems
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-paginate
-feed:
-  path: atom.xml
+
 
 # Pagination - https://jekyllrb.com/docs/pagination/
 paginate: 10
