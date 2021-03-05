@@ -25,13 +25,17 @@ author:
 github_username: mcint170
 logo: # path of site logo, e.g. "/assets/images/logo.png"
 search: # true, false (default)
-search_full_content: false # true, false (default)
+search_full_content: #true, false (default)
 search_provider: # lunr (default), algolia
 algolia:
   application_id: # YOUR_APPLICATION_ID
   index_name: # YOUR_INDEX_NAME
   search_only_api_key: # YOUR_SEARCH_ONLY_API_KEY
   powered_by: # true (default), false
+
+# Liquid
+liquid:
+  error_mode: strict
 
 # Build settings
 markdown: kramdown
@@ -71,6 +75,12 @@ exclude:
   - /docs # ignore Basically Basic sample site
   - /example # ignore Basically Basic dev site
 
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:path
+
 # Front Matter Defaults
 defaults:
   # _posts
@@ -79,4 +89,11 @@ defaults:
       type: posts
     values:
       layout: post
-      read_time: true
+      read_time: False
+  - scope:
+      path: "_projects"
+      type: projects
+    values:
+      layout: post
+      read_time: False
+
