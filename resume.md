@@ -5,4 +5,6 @@ pdf_file: "/assets/pdfs/Brandon_McIntyre_Resume_2021.pdf"
 
 ---
 
-{% pdf {{ page.pdf_file }} %}
+[View the PDF]({{ site.url }}/assets/pdfs/Brandon_McIntyre_Resume_2021.pdf)
+
+![Resume](/assets/images/Brandon_McIntyre_Resume_2021-1.jpg){:class="img-responsive"}
