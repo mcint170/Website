@@ -23,6 +23,7 @@ author:
   name: Brandon McIntyre
   picture: /assets/images/brandon_picture_250.jpg
 github_username: mcint170
+linkedin_username: brandonjmcintyre
 logo: # path of site logo, e.g. "/assets/images/logo.png"
 search: # true, false (default)
 search_full_content: #true, false (default)
@@ -45,6 +46,7 @@ plugins: # previsously gems
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-paginate
+  - jekyll-pdf-embed
 #feed:
 #  path: atom.xml
 
