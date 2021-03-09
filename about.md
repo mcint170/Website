@@ -3,7 +3,7 @@ title: "About Me"
 layout: about
 ---
 
-The name is Brandon McIntyre. I am an aspiring Data Scientist with an 
+I am an aspiring Data Scientist with an 
 insatiable appetite for learning. When not cooking delicious food or doing 
 school work, I am on YouTube learning and trying out cool new things. 
 
