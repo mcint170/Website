@@ -10,6 +10,11 @@ $text-color: #eaeaea !default;
 $accent-color: #d99125 !default;
 //$accent-color: #528182 !default;
 $background-color: #263849 !default;
-$code-background-color: #fff !default;
-$border-color: rgba($text-color, 0.5) !default;
-$overlay-color: #fff !default;
+$code-background-color: #5e5e5e !default;
+$border-color: rgba(#5e5e5e, 0.5) !default;
+$overlay-color: #5e5e5e !default;
+
+kbd {
+  background-color: #fff;  // Changes background color
+  color: #333;                  // Changes text color
+}

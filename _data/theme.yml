@@ -38,6 +38,6 @@ navigation_pages:
   - projects.md
   - resume.md
   - posts.md
-  - tags.md
-  - categories.md
+#  - tags.md
+#  - categories.md
 

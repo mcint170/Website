@@ -18,7 +18,7 @@ title: Brandon McIntyre
 email: mcint170@msu.edu
 description: "Personal Website"
 baseurl: # the optional subpath of your site, e.g. "/blog"
-url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url: https://mcint170.github.io/
 author:
   name: Brandon McIntyre
   picture: /assets/images/brandon_picture_250.jpg
@@ -34,6 +34,7 @@ algolia:
   search_only_api_key: # YOUR_SEARCH_ONLY_API_KEY
   powered_by: # true (default), false
 destination: docs/
+copyright: "© Brandon McIntyre. Powered by Jekyll & Basically Basic"
 
 # Liquid
 liquid:

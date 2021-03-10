@@ -2,6 +2,10 @@
    Sea theme skin
    ========================================================================== */
 /* Colors */
+kbd {
+  background-color: #fff;
+  color: #333; }
+
 /*!
  * Basically Basic Jekyll Theme 1.4.4
  * Copyright 2017-2018 Michael Rose - mademistakes | @mmistakes
@@ -813,7 +817,7 @@ table {
 
 th,
 td {
-  border-bottom: 1px solid rgba(234, 234, 234, 0.5); }
+  border-bottom: 1px solid rgba(94, 94, 94, 0.5); }
 
 th {
   padding: 0.5em;
@@ -887,7 +891,7 @@ th {
   margin-bottom: 2em;
   padding-bottom: 1em; }
   .taxonomy-section:not(:last-child) {
-    border-bottom: solid 1px rgba(234, 234, 234, 0.5); }
+    border-bottom: solid 1px rgba(94, 94, 94, 0.5); }
   .taxonomy-section + .taxonomy-section {
     margin-top: 2em; }
 
@@ -929,7 +933,7 @@ th {
     justify-content: space-between;
     color: inherit;
     text-decoration: none;
-    border-bottom: 1px solid rgba(234, 234, 234, 0.5); }
+    border-bottom: 1px solid rgba(94, 94, 94, 0.5); }
     .taxonomy-index a:hover {
       color: #d99125; }
   .taxonomy-index + .taxonomy-section {
@@ -1202,7 +1206,7 @@ th {
 
 /* Algolia search */
 .ais-hits .entry {
-  border-bottom: 1px solid rgba(234, 234, 234, 0.5); }
+  border-bottom: 1px solid rgba(94, 94, 94, 0.5); }
 
 .ais-search-box {
   max-width: 100% !important;
@@ -1258,7 +1262,7 @@ th {
     clear: both;
     content: ''; }
   .entry:not(:last-child) {
-    border-bottom: 1px solid rgba(234, 234, 234, 0.5); }
+    border-bottom: 1px solid rgba(94, 94, 94, 0.5); }
   .entry a {
     color: inherit; }
 
@@ -1415,7 +1419,7 @@ th {
 .footnotes {
   margin: 2rem 0;
   padding-top: 1rem;
-  border-top: 1px solid rgba(234, 234, 234, 0.5);
+  border-top: 1px solid rgba(94, 94, 94, 0.5);
   font-size: 80%; }
 
 /* Read more link */
