@@ -1,5 +1,5 @@
 ---
-title: Projects
+title: Projects (UNDER CONSTRUCTION)
 layout: collection
 permalink: /projects/
 collection: projects
